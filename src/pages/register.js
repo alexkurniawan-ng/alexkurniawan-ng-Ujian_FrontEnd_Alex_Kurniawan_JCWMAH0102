@@ -20,7 +20,9 @@ class RegisterPage extends React.Component {
             passLvl: '',
             passNotif: '',
             userMessage: 'Username Invalid',
-            emailMessage: 'Email Invalid'
+            emailMessage: 'Email Invalid',
+            passVisibility: "password",
+            visibilityMess: "Show Password"
         }
     }
 
@@ -205,12 +207,13 @@ class RegisterPage extends React.Component {
                                 </FormGroup>
                                 <FormGroup>
                                     <Label className="text-white">Password</Label>
-                                    <Input type="password" placeholder="Min. 6 Char (abjad, number, symbol)" innerRef={(value) => this.password = value} onChange={(event) => this.handleChange('password', event.target.value)} />
+                                    <Input type={this.state.passVisibility} placeholder="Min. 6 Char (abjad, number, symbol)" innerRef={(value) => this.password = value} onChange={(event) => this.handleChange('password', event.target.value)} />
                                     {   
                                         //ternary tidak perlu : null
                                         this.state.password.length > 3 &&
                                         <Progress value={this.state.passValue} color={this.state.passNotif}>{this.state.passLvl}</Progress>
                                     }
+                                    <Button onClick={()=> this.setState({passVisibility: this.state.passVisibility === "password" ? "type" : "password"})}>Show / Hide Password</Button>
                                 </FormGroup>
                                 <FormGroup>
                                     <Label className="text-white">Confirm Password</Label>
