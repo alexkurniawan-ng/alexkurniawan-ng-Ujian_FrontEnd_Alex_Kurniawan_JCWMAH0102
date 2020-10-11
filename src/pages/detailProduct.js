@@ -78,18 +78,18 @@ class ProductDetail extends React.Component {
         let userID = localStorage.getItem("id")
 
 
-        // this.state.detail.forEach((item, index) => {
-        //     this.props.product.forEach((value, idx) => {
-        //         if (item.idProduct === value.id) {
+        this.state.detail.forEach((item, index) => {
+            this.props.product.forEach((value, idx) => {
+                if (item.idProduct === value.id) {
 
-        //         console.log("sama", item.idProduct, value.id)
-        //         let indexStock = value.stock.findIndex(element => element.code == item.size)
-        //         console.log(value.stock[indexStock])
-        //         value.stock[indexStock].total -= item.qty
-        //         this.decrementStock(value.id, {stock: value.stock})
-        //         }
-        //     })
-        // })
+                console.log("sama", item.idProduct, value.id)
+                // let indexStock = value.stock.findIndex(element => element.code == item.size)
+                // console.log(value.stock[indexStock])
+                // value.stock[indexStock].total -= item.qty
+                // this.decrementStock(value.id, {stock: value.stock})
+                }
+            })
+        })
         
         
         this.props.cart.push({
