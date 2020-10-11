@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/alexkurniawan-ng/toko-olahraga/static/css/main.6cf23a37.chunk.css",
+    "main.js": "/alexkurniawan-ng/toko-olahraga/static/js/main.bfd793c2.chunk.js",
+    "main.js.map": "/alexkurniawan-ng/toko-olahraga/static/js/main.bfd793c2.chunk.js.map",
+    "runtime-main.js": "/alexkurniawan-ng/toko-olahraga/static/js/runtime-main.e2e2a558.js",
+    "runtime-main.js.map": "/alexkurniawan-ng/toko-olahraga/static/js/runtime-main.e2e2a558.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/alexkurniawan-ng/toko-olahraga/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.f132e911.chunk.js": "/alexkurniawan-ng/toko-olahraga/static/js/2.f132e911.chunk.js",
+    "static/js/2.f132e911.chunk.js.map": "/alexkurniawan-ng/toko-olahraga/static/js/2.f132e911.chunk.js.map",
+    "index.html": "/alexkurniawan-ng/toko-olahraga/index.html",
+    "precache-manifest.7fa9083d34263cfe36fab8ba386df235.js": "/alexkurniawan-ng/toko-olahraga/precache-manifest.7fa9083d34263cfe36fab8ba386df235.js",
+    "service-worker.js": "/alexkurniawan-ng/toko-olahraga/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/alexkurniawan-ng/toko-olahraga/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.6cf23a37.chunk.css.map": "/alexkurniawan-ng/toko-olahraga/static/css/main.6cf23a37.chunk.css.map",
+    "static/js/2.f132e911.chunk.js.LICENSE.txt": "/alexkurniawan-ng/toko-olahraga/static/js/2.f132e911.chunk.js.LICENSE.txt",
+    "static/media/logoA.png": "/alexkurniawan-ng/toko-olahraga/static/media/logoA.8369382d.png",
+    "static/media/logoBwhite.png": "/alexkurniawan-ng/toko-olahraga/static/media/logoBwhite.1406fabf.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2e2a558.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.f132e911.chunk.js",
+    "static/css/main.6cf23a37.chunk.css",
+    "static/js/main.bfd793c2.chunk.js"
+  ]
+}
