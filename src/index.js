@@ -3,11 +3,22 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {BrowserRouter} from 'react-router-dom';
+// fungsi createStore : Digunakan untuk membuat global store dari combine Reducer
+import { applyMiddleware, createStore } from 'redux';
+// provider : Digunakan untuk menghubungkan antara component, action dan reducer
+import { Provider } from 'react-redux';
+import { Reducer } from './redux/reducers';
+import ReduxThunk from 'redux-thunk';
 
+const storeReducer = createStore(Reducer, {}, applyMiddleware(ReduxThunk))
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Provider store={storeReducer}>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </Provider>,
   document.getElementById('root')
 );
 

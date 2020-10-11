@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.jumboBanner {
+  background: url("https://images.unsplash.com/flagged/photo-1556746834-1cb5b8fabd54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80");
+  background-size: cover;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +40,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.select-image:hover {
+  border: 1px solid #0376AB;
+  border-radius: 5px;
+  cursor: pointer;
 }
