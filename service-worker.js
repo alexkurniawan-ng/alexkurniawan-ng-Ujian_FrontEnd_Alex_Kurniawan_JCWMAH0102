@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/toko-olahraga/precache-manifest.bacd21e0361c24cae16e1d4b3f27cc43.js"
+  "/toko-olahraga/precache-manifest.814bff28f5b5f5892c4f4b6076effa4f.js"
 );
 
 self.addEventListener('message', (event) => {
